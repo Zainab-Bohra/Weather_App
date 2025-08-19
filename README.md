@@ -1,12 +1,43 @@
-# React + Vite
+🌦️ Weather App ==>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Weather Application built with React.js + Vite.
+This app fetches real-time weather data using an API and displays temperature, humidity, and weather conditions for any searched city.
 
-Currently, two official plugins are available:
+🚀 Features =>
+- 🌍 Search weather by city name
+- 🌡️ Shows temperature, humidity, and conditions
+- 📱 Responsive design for desktop and mobile
+- ⚡ Fast performance with Vite
+- 🎨 Styled with modern CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack =>
+- Frontend: React.js, Vite
+- Styling: CSS
+- API: OpenWeatherMap (or whichever API you used)
 
-## Expanding the ESLint configuration
+📸 Screenshot =>
+<img width="1856" height="902" alt="image" src="https://github.com/user-attachments/assets/af64abf6-3b05-4c9a-98c5-fadd0b29c543" />
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Installation =>
+- Clone the repo and install dependencies:
+    git clone https://github.com/Zainab-Bohra/Weather_App.git
+    cd Weather_App
+    npm install
+    npm run dev
+
+📡 API Setup => 
+- Create an account at OpenWeatherMap(or your chosen weather API).
+- Get your free API key.
+- Add it inside your project (e.g., in App.jsx or an .env file).
+    VITE_API_KEY=your_api_key_here
+
+👩‍💻 Author =>
+🙋‍♀️ Zainab Bohra
+GitHub: Zainab-Bohra
+
+⭐ Contribute =>
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and submit a pull request.
+
+📜 License =>
+This project is open-source and available under the MIT License.
