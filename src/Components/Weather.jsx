@@ -50,7 +50,7 @@ const Weather = () => {
 
     try {
       setError(""); // Clear previous error
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${import.meta.env.VITE_Weather_API_KEY}`;
       const response = await fetch(url);
       const data = await response.json();
 
